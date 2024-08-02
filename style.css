@@ -22,7 +22,7 @@ p, .header, body{
 }
 
 .header {
-  height: 120px;
+  height: 7.2rem;
   line-height: 120px;
   background-color: #024B2F;
   color: white;
@@ -35,6 +35,20 @@ p, .header, body{
   justify-content: center;
   align-items: center;
 
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: top 0.2s ease-in-out;
+  z-index: 100;
+}
+
+.content { 
+  height:1000px; 
+  margin-top:8rem; /* add space for fixed header */
 }
 
 .foliage-parallax {
