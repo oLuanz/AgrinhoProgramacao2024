@@ -1,4 +1,4 @@
-  var prevScrollpos = window.pageYOffset;
+var prevScrollpos = window.scrollY;
 
 /* Get the header element and it's position */
 var headerDiv = document.querySelector("header");
