@@ -15,7 +15,7 @@ body {
   background-color: #F3F0E7;
 }
 
-p, .header, body{
+p, header, body, div{
   margin: 0;
   padding: 0;
   border: 0;
