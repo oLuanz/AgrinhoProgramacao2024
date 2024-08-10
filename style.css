@@ -21,6 +21,7 @@ p, header, body, div{
   border: 0;
 }
 
+
 .header {
   height: 7.2rem;
   line-height: 120px;
@@ -35,6 +36,7 @@ p, header, body, div{
   justify-content: center;
   align-items: center;
 
+
   position: fixed;
   top: 0;
   left: 0;
@@ -43,12 +45,20 @@ p, header, body, div{
   z-index: 100;
 }
 
-
-
 .content { 
   height:1000px; 
-  margin-top:8rem; /* add space for fixed header */
+  margin-top:7.2rem; /* add space for fixed header */
 }
+
+.headerlogo {
+  width: 70x;
+  height: 70px;
+  line-height: 120px;
+  margin-top: 30px;
+  margin-right: 20px;
+}
+
+
 
 .foliage-parallax {
   background-image: url("wallpaperflare.com_wallpaper.jpg");
@@ -57,8 +67,7 @@ p, header, body, div{
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 500px; 
-  height: 800px;  width: 1920px;
-  height: 800px; 
+  height: 800px;
 }
 
 .center {
