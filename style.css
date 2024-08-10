@@ -45,11 +45,6 @@ p, header, body, div{
   z-index: 100;
 }
 
-.content { 
-  height:1000px; 
-  margin-top:7.2rem; /* add space for fixed header */
-}
-
 .headerlogo {
   width: 70x;
   height: 70px;
